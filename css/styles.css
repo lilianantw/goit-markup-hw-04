@@ -297,7 +297,7 @@ p.feature-text {
   padding-top: 120px;
 }
 
-..social-list {
+.social-list {
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -375,7 +375,8 @@ p.feature-text {
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); /* плавна зміна кольору фона посилання*/
 }
 
-.social-icon, .footer-social-icon {
+.social-icon,
+.footer-social-icon {
   fill: var(--icon-fill-color, #f4f4fd);
 }
 
