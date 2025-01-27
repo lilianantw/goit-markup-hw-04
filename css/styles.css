@@ -486,6 +486,7 @@ p.feature-text {
   font-family: "Raleway", sans-serif;
   display: inline-block;
   margin-bottom: 16px;
+  margin-right: 20px; /* Відступ між логотипом і текстом (опціонально) */
 }
 .logo-accent-footer {
   font-weight: 700;
@@ -547,8 +548,7 @@ p.feature-text {
 }
 
 .footer-promo {
-  margin: 0; /* Прибираємо зовнішні відступи */
-  text-align: left; /* Вирівнюємо контент по лівому краю */
+  margin-right: 120px; /* Встановлюємо потрібний відступ між блоками */
 }
 /* Правки для PORTFOLIO/section #4 */
 .portfolio-item:nth-child(3n) {
