@@ -529,8 +529,8 @@ p.feature-text {
 .footer-container {
   display: flex;
   gap: 120px;
-  align-items: baseline;
-  margin-right: 120px;
+  /*align-items: baseline;*/
+  align-items: flex-start;
 }
 
 .footer-list {
@@ -546,10 +546,10 @@ p.feature-text {
   font-weight: 500;
 }
 
-.footer-link {
-  margin-right: 120px;
+.footer-promo {
+  margin: 0; /* Прибираємо зовнішні відступи */
+  text-align: left; /* Вирівнюємо контент по лівому краю */
 }
-
 /* Правки для PORTFOLIO/section #4 */
 .portfolio-item:nth-child(3n) {
   margin-right: 0;
