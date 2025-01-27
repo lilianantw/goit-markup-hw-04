@@ -530,6 +530,7 @@ p.feature-text {
   display: flex;
   gap: 120px;
   align-items: baseline;
+  margin-right: 120px;
 }
 
 .footer-list {
@@ -548,6 +549,7 @@ p.feature-text {
 .footer-link {
   margin-right: 120px;
 }
+
 /* Правки для PORTFOLIO/section #4 */
 .portfolio-item:nth-child(3n) {
   margin-right: 0;
@@ -557,9 +559,7 @@ p.feature-text {
 .portfolio-item:nth-last-child(3) {
   margin-bottom: 0;
 }
-.footer-container {
-  margin-right: 120px;
-}
+
 /*
 Правки для HEADER меню .header-menu-item:not(:last-child) {
   margin-right: 40px;
