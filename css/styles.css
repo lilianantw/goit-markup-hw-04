@@ -470,6 +470,8 @@ p.feature-text {
 }
 
 /**************************FOOTER******************************/
+
+/**************************FOOTER******************************/
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
@@ -541,16 +543,11 @@ p.feature-text {
   color: #fff;
   margin-bottom: 16px;
   font-weight: 500;
+}
 
 .footer-link {
   margin-right: 120px;
 }
-
-  .footer-container {
-  margin-right: 120px;
-}
-
-
 /* Правки для PORTFOLIO/section #4 */
 .portfolio-item:nth-child(3n) {
   margin-right: 0;
@@ -560,9 +557,9 @@ p.feature-text {
 .portfolio-item:nth-last-child(3) {
   margin-bottom: 0;
 }
-
-
-
+.footer-container {
+  margin-right: 120px;
+}
 /*
 Правки для HEADER меню .header-menu-item:not(:last-child) {
   margin-right: 40px;
