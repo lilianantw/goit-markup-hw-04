@@ -530,8 +530,7 @@ p.feature-text {
 .footer-container {
   display: flex;
   gap: 120px;
-  /*align-items: baseline;*/
-  align-items: flex-start;
+  align-items: baseline;
 }
 
 .footer-list {
