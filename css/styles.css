@@ -350,6 +350,7 @@ p.feature-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-bottom: 8px;
 }
 
 .description-card {
@@ -529,7 +530,7 @@ p.feature-text {
 
 .footer-container {
   display: flex;
-  gap: 120px;
+  /* gap: 120px;*/
   align-items: baseline;
 }
 
@@ -549,6 +550,7 @@ p.feature-text {
 .footer-promo {
   margin-right: 120px; /* Встановлюємо потрібний відступ між блоками */
 }
+
 /* Правки для PORTFOLIO/section #4 */
 .portfolio-item:nth-child(3n) {
   margin-right: 0;
